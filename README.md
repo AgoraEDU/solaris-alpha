@@ -59,7 +59,7 @@ an environment that you have configured beforehand.
 | `--user`     | The user of the database                  | root      |
 | `--password` | The password of the database              | root      |
 
-> NOTE: The database module is not enabled by default and its going to solely rely on .json files stored locally from
+> NOTE: The database module is not enabled by default, and it's going to solely rely on .json files stored locally from
 > a specific file path.
 
 ## License
