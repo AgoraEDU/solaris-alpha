@@ -27,8 +27,40 @@ the application.
 
 To get started, first clone the repository and install the required dependencies:
 ```bash
-git clone 
+git clone https://github.com/AgoraEDU/solaris-alpha.git . && pip install -r requirements.txt
 ```
+
+> NOTE: You could also just use the Docker image we will provide in the future.
+
+Once the dependencies are installed, you can run the application using the following command:
+
+```bash
+py | python main.py --sc --cts --db --host --port --user --password
+```
+
+From here, you can start using the application since its using nicegui to create a user interface.
+
+> [!WARNING]
+> All options are subject to change, so please use the options above to configure the application.
+> We may also add more options in the future which may or may not remove previous options.
+
+Each of the arguments specified below are optional, however, it makes it easier to run the application with
+an environment that you have configured beforehand.
+
+### Options
+
+| Option       | Description                               | Default   |
+|--------------|-------------------------------------------|-----------|
+| `--sc`       | Enables the Solaris Clients module        | False     |
+| `--cts`      | Enables the Client Tracking System module | False     |
+| `--db`       | Enables the Database module               | False     |
+| `--host`     | The host of the database                  | localhost |
+| `--port`     | The port of the database                  | 3306      |
+| `--user`     | The user of the database                  | root      |
+| `--password` | The password of the database              | root      |
+
+> NOTE: The database module is not enabled by default and its going to solely rely on .json files stored locally from
+> a specific file path.
 
 ## License
 
