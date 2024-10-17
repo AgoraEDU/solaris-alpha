@@ -1,0 +1,183 @@
+### PYTHON TEMPLATE ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+### C EXTENSIONS ###
+*.so
+
+### DISTRIBUTIONS ###
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### PYINSTALLER ###
+*.manifest
+*.spec
+
+### INSTALLER LOGS ### ###
+pip-log.txt
+pip-delete-this-directory.txt
+
+### UNIT TEST / COVERAGE REPORTS ###
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+### TRANSLATIONS ###
+*.mo
+*.pot
+
+### DJANGO ###
+*.log
+local_settings.py
+
+### FLASK ###
+instance/
+.webassets-cache
+
+### SCRAPY ###
+.scrapy
+
+### SPHINX DOCUMENTATION ###
+docs/_build/
+
+### PYBUILDER ###
+target/
+
+### IPYTHON NOTEBOOK ###
+.ipynb_checkpoints
+
+### PYENV ###
+.python-version
+
+### CELERY BEAT SCHEDULE FILE ###
+celerybeat-schedule
+
+### DOTENV ###
+.env
+.env.emit
+
+### VIRTUALENV ###
+venv/
+ENV/
+
+### SPYDER PROJECT SETTINGS ###
+.spyderproject
+
+### ROPE PROJECT SETTINGS ###
+.ropeproject
+
+### VIRTUALENV TEMPLATE ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### JETBRAINS TEMPLATE ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+### USER-SPECIFIC STUFF ###
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+### AWS USER-SPECIFIC ###
+.idea/**/aws.xml
+
+### GENERATED FILES ###
+.idea/**/contentModel.xml
+
+### SENSITIVE OR HIGH-CHURN FILES ###
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+### GRADLE ###
+.idea/**/gradle.xml
+.idea/**/libraries
+
+### GRADLE AND MAVEN WITH AUTO-IMPORT ###
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+### CMAKE ###
+cmake-build-*/
+
+### MONGO EXPLORER PLUGIN ###
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+### INTELLIJ ###
+out/
+
+### MPELTONEN/SBT-IDEA PLUGIN ###
+.idea_modules/
+
+### JIRA PLUGIN ###
+atlassian-ide-plugin.xml
+
+### CURSIVE CLOJURE PLUGIN ###
+.idea/replstate.xml
+
+### SONARLINT ###
+.idea/sonarlint/
+
+### CRASHLYTICS ###
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### REST CLIENT ###
+.idea/httpRequests
+
+### ANDROID STUDIO CACHE ###
+.idea/caches/build_file_checksums.ser
+
+### IDEA ###
+# .idea
